@@ -83,7 +83,7 @@ scout up
 Add the marketplace and install the plugin:
 
 ```text
-/plugin marketplace add arach/claude-scout
+/plugin marketplace add oscout/claude-scout
 /plugin install scout@openscout
 ```
 

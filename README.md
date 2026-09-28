@@ -4,9 +4,9 @@ This repository contains the Claude Code plugin marketplace for OpenScout's Clau
 The repository is named `claude-scout`; the Claude-facing plugin is named
 `scout` so its commands are exposed as `/scout:*`.
 
-Website: <https://arach.github.io/claude-scout/>
+Website: <https://oscout.github.io/claude-scout/>
 
-Repository: <https://github.com/arach/claude-scout>
+Repository: <https://github.com/oscout/claude-scout>
 
 ## Included Plugins
 
@@ -41,7 +41,7 @@ claude --dangerously-load-development-channels plugin:scout@openscout
 ## Install From GitHub
 
 ```text
-/plugin marketplace add arach/claude-scout
+/plugin marketplace add oscout/claude-scout
 /plugin install scout@openscout
 ```
 
