@@ -9,7 +9,7 @@ plugin name is `scout`, which gives operators the shorter command namespace:
 It provides two surfaces:
 
 - slash commands for precise operator actions such as `/scout:ask`,
-  `/scout:send`, `/scout:up`, and `/scout:status`
+  `/scout:tell`, `/scout:up`, and `/scout:status`
 - a Claude Code channel for ambient broker-routed push, mentions, group updates,
   and replies
 
@@ -34,7 +34,7 @@ The plugin currently exposes:
 - `/scout:latest` - show recent broker activity
 - `/scout:inbox` - show recent messages addressed to you
 - `/scout:channel` - show recent messages in a named channel
-- `/scout:send` - send a tell, FYI, status update, or wake message
+- `/scout:tell` - tell an agent or channel an FYI, status, or result; use /scout:ask for work or a reply
 - `/scout:ask` - ask an agent to own work and return durable flight info
 - `/scout:broadcast` - broadcast to `channel.shared`
 - `/scout:up` - start or revive a Scout agent
