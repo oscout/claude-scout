@@ -107,12 +107,12 @@
       ]
     },
     {
-      "name": "send",
-      "description": "Send a Scout tell, status update, FYI, or wake message without waiting for a reply",
-      "argumentHint": "[--to <agent> | --ref <ref> | --channel <name>] [--as <sender>] [--wake] [--message-file <path> | message]",
-      "usageSuffix": "[--to <agent> | --ref <ref> | --channel <name>] [--as <sender>] [--wake] [--message-file <path> | message]",
-      "readmeSummary": "send a tell, FYI, status update, or wake message",
-      "scoutArgs": ["send"],
+      "name": "tell",
+      "description": "Tell a Scout agent or channel something (FYI, status, result) without asking for a reply",
+      "argumentHint": "[--to <agent> | --ref <ref> | --channel <name>] [--as <sender>] [--message-file <path> | message]",
+      "usageSuffix": "[--to <agent> | --ref <ref> | --channel <name>] [--as <sender>] [--message-file <path> | message]",
+      "readmeSummary": "tell an agent or channel an FYI, status, or result; use /scout:ask for work or a reply",
+      "scoutArgs": ["tell"],
       "postInstructions": [
         "Present the command output as-is. Do not reinterpret message body mentions as routing if the user passed `--to`, `--ref`, or `--channel`."
       ]
